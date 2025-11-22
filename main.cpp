@@ -11,10 +11,15 @@ int main()
 	cout << "how many students in file: ";
 	cin >> count;
 
-	while (count > 0)
+	student* mass = new student[count];
+
+	for (int i = 0; i < count; i++)
 	{
-		st.input_txt(infile);
-		st.print();
-		--count;
+		mass[i].input_txt(infile);
+	}
+
+	for (int i = 0; i < count; i++)
+	{
+		mass[i].print();
 	}
 }

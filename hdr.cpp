@@ -43,7 +43,7 @@ void student::SetAge(int A)
 
 student::~student() 
 {
-    cout << "\n\n\n\n\n\n\n\nEnd of program";
+    cout << "\nEnd of program";
 }
 
 student::student()

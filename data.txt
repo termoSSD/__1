@@ -1,4 +1,3 @@
-oleh_manko
-17
-ostap_onufrik
-18
+oleh_manko 17
+ostap_onufrik 18
+oleh_pona 17
