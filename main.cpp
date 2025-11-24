@@ -25,11 +25,11 @@ int main()
 
 	do
 	{
-		cout << "What you gona do:\n1.Show list of students\n2.Find students by age\nType number: ";
+		cout << "What you gona do:\n1.Show list of students\n2.Find students by age\n3.Min average\nType number: ";
 		cin >> choise;
-	} while (choise != 2 && choise != 1);
+	} while (choise != 2 && choise != 1 && choise != 3);
 
-	/*
+
 	switch (choise)
 	{
 	case(1):
@@ -64,8 +64,11 @@ int main()
 			cout << "\n\nTotal found: " << count_of_people_age;
 		}
 		break;
+	case(3):
+		cout << "Min = " << min_element;
+		break;
 	}
-	*/
-	cout << "Min = " << min_element;
+
 	delete[] mass;
+	}
 }
