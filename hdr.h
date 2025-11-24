@@ -10,6 +10,7 @@ class student
 private:
 	string name;
 	int age;
+	int avg;
 public:
 	string GetName();
 	int GetAge();
@@ -27,4 +28,6 @@ public:
 
 	student(const student&);
 	student(string, int);
+
+	friend float min_avg(student*, int);
 };

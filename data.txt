@@ -1,7 +1,7 @@
-oleh_manko 17
-ostap_onufrik 18
-oleh_pona 17
-petro_zadolisky 18
-dmytro_srymov 18
-dmytro_lupiy 16
-orest_nakonechniy 18
+oleh_manko 17 5
+ostap_onufrik 18 4
+oleh_pona 17 8
+petro_zadolisky 18 1
+dmytro_srymov 18 3
+dmytro_lupiy 16 2 
+orest_nakonechniy 18 6

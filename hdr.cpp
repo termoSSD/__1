@@ -17,18 +17,23 @@ void student::input()
 
     cout << "Age: ";
     cin >> age;
+
+    cout << "Avg: ";
+    cin >> avg;
 }
 
 void student::print()
 {
     cout << "\nName: " << name; 
     cout << "\nAge: " << age;
+    cout << "\nAvg: " << avg;
 }
 
 void student::input_txt(ifstream& inf)
 {
     inf >> name;
     inf >> age;
+    inf >> avg;
 }
 
 void student::SetName(string N)
@@ -61,3 +66,15 @@ student::student(string N, int A)
     age = A;
 }
 
+float min_avg(student* S, int n)
+{
+    float min = S[0].avg;
+    for (int i = 0; i < n; i++)
+    {
+        if (S[i].avg < min) 
+        {
+            min = S[i].avg;
+        }
+    }
+    return min;
+}

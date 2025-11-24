@@ -21,12 +21,15 @@ int main()
 	}
 	infile.close();
 
+	float min_element = min_avg(mass, count);
+
 	do
 	{
 		cout << "What you gona do:\n1.Show list of students\n2.Find students by age\nType number: ";
 		cin >> choise;
 	} while (choise != 2 && choise != 1);
 
+	/*
 	switch (choise)
 	{
 	case(1):
@@ -62,7 +65,7 @@ int main()
 		}
 		break;
 	}
+	*/
+	cout << "Min = " << min_element;
 	delete[] mass;
-	}
-	/**/
 }
