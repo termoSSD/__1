@@ -68,7 +68,6 @@ int main()
 		cout << "Min = " << min_element;
 		break;
 	}
-
-	delete[] mass;
 	}
+	delete[] mass;
 }
