@@ -34,6 +34,7 @@ int main()
 	{
 	case(1):
 	{
+		sort(mass, count);
 		cout << "\n--- Students List ---";
 		for (int i = 0; i < count; i++)
 		{

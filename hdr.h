@@ -30,4 +30,5 @@ public:
 	student(string, int);
 
 	friend float min_avg(student*, int);
+	friend void sort(student*, int);
 };

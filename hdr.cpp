@@ -78,3 +78,21 @@ float min_avg(student* S, int n)
     }
     return min;
 }
+
+void sort(student* S, int n)
+{
+    student T;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++) 
+        {
+            if (S[j].name < S[j + 1].name)
+            {
+                T = S[j];
+                S[j] = S[j + 1];
+                S[j + 1] = T;
+            }
+        }
+        
+    }
+}
